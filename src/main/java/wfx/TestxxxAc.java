@@ -20,7 +20,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestxxxAc {
-	public static ApplicationContext ct;
+	public static ApplicationContext ct; 
 	public static void main(String[] args) {
 	    ct =new  ClassPathXmlApplicationContext("applicationContext.xml");
         DataSource dataSource = (DataSource) ct.getBean("dataSource");
