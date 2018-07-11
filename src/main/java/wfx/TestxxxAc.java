@@ -46,7 +46,6 @@ public class TestxxxAc {
 			                                                 .addClasspathResource("MyProcess.png")
 			                                                 .deploy();
 	        System.out.println(deployment.getId() +"     "  + deployment.getName());    
-		
 	}
 	
 	
@@ -95,6 +94,8 @@ public class TestxxxAc {
 		Object xx=  taskService.getVariable(taskId, "请假天数");
          System.out.println(xx);
 	}
+	
+	
 	
 	
 	

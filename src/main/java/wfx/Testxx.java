@@ -5,7 +5,11 @@ import org.activiti.engine.ProcessEngineConfiguration;
 
 public class Testxx {
 	public static void main(String[] args) {
-   System.out.println("你好");
+   System.out.println("你好");   
+   
+   
+   
+   
 	// ������������������Ϣ����
 ProcessEngineConfiguration pec = ProcessEngineConfiguration
 		.createStandaloneProcessEngineConfiguration();
